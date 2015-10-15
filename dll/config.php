@@ -5,7 +5,7 @@
 
 	/*datos de la base de datos*/
 	$db_usr="root";
-	$db_pass="r142891l";
+	$db_pass="-----";
 	$db_name="tutoria1db";
 	$db_host="127.0.0.1";
 ?>
