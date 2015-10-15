@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f2f2f2;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+header{
+	background: #3f51b5;
+	color: #fff;
+	padding: 1em 2em;
+	text-shadow: 2px 2px 4px #000;
+}
+nav{
+	background: #5c6bc0;
+	text-align: center;
+	padding: 0.7em 0;
+}
+nav a{
+	padding: 0.7em 1em;
+	color: #fff;
+	text-decoration: none;
+}
+nav a:hover{
+	background: #9fa8da;
+	color: #000;
+}
+section#contenedor{
+	width: 90%;
+	padding: 1em;
+	margin: 0 auto;
+}
+footer{
+	text-align: center;
+	background: #1a237e;
+	color: #f2f2f2;
+	padding: 1em 0;
+}
+.form-group{
+	width: 80%;
+	padding-left: 1em;
+}
+label{
+	display: block;
+	width: 50%;
+	font-weight: bold;
+	color: #666;
+	padding: 0.5em 0.4em 0 0;
+}
+input[type="text"],input[type="email"],input[type="date"],select   {
+	width: 50%;
+	padding: 0.3em;
+}
+input[type="text"]:focus,input[type="email"]:focus  {
+  box-shadow: 0 0 5px 1px #067A2B;
+}
+
+table{
+	border-spacing: 0px;
+	border-collapse: collapse;
+	color: #333;
+}
+td{
+	border-top: solid 1px #ccc;
+	padding: 0.3em 1em;
+}
+tr:hover{
+	background: #CFD3D4;
+}
+h3,h3 span{
+	color: #6B6E6C;
+	font-size: 2em;
+	padding: 0.3em;
+}
+a{
+	text-decoration: none;
+}
+a.borrar{
+	color: red;
+}
+a.actualizar{
+	color: green;
+}
+ul{
+	padding: 0 2em;
+}
